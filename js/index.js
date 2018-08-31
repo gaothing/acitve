@@ -16,4 +16,6 @@ window.onload = function() {
 			$(".actFour").addClass("actFourgo")
 		}
 	});
+
 }
+

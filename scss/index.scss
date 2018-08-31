@@ -179,7 +179,7 @@ input::-webkit-input-placeholder {
                     width: 100%;
                     border-radius: 0.98rem;
                     overflow: hidden;
-                    border: 2px solid #DD4343;
+                    border: 0.015rem solid #DD4343;
                     margin-top: 0.3rem;
                     .phoneAdd{
                         position: absolute;
@@ -216,7 +216,9 @@ input::-webkit-input-placeholder {
                         line-height: 0.96rem;
                         font-size: 0.24rem;
                         letter-spacing: 0.01rem;
+                        letter-spacing: 0.01rem;
                         font-weight: bold;
+                        cursor: pointer;
                     }
                     &:nth-child(4) {
                         border: 0;
