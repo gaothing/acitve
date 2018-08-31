@@ -1,4 +1,4 @@
-window.onload = function() {
+$(document).ready( function() {
 	$(".actOne").addClass("actOnego")
 	var win = $(window); 
 	var sc = $(document); 
@@ -6,7 +6,7 @@ window.onload = function() {
 		if(sc.scrollTop() > $(".actTwo").offset().top - 300) {
 			$(".actTwo").addClass("actTwogo")
 		}
-		if(sc.scrollTop() > $(".actTwos").offset().top - 400) {
+		if(sc.scrollTop() > $(".actTwos").offset().top - 500) {
 			$(".actTwos").addClass("actTwogo")
 		}
 		if(sc.scrollTop() > $(".actThree").offset().top - 300) {
@@ -17,5 +17,5 @@ window.onload = function() {
 		}
 	});
 
-}
+})
 
