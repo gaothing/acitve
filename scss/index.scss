@@ -191,7 +191,7 @@ input::-webkit-input-placeholder {
                         line-height: 0.96rem;
                         color: #DD4343;
                         font-size: 0.26rem;
-                        font-weight: bold;
+
                         img{
                             width: 0.26rem;
                             position: absolute;
@@ -209,7 +209,6 @@ input::-webkit-input-placeholder {
                         text-align: center;
                         font-size: 0.26rem;
                         color: #dd4343;
-                          font-weight: bold;
                     }
                     &:nth-child(3) {
                         background: #DD4343;
@@ -475,13 +474,13 @@ $wordDelay:$wordStart+$wordAdd;
 //two
 @keyframes twoOpLoop {
     0% {
-        opacity: 0.5;
+        opacity: 0.7;
     }
     50% {
         opacity: 1;
     }
     100% {
-        opacity: 0.5;
+        opacity: 0.7;
     }
 }
 
