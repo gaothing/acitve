@@ -191,14 +191,12 @@ input::-webkit-input-placeholder {
                         line-height: 0.96rem;
                         color: #DD4343;
                         font-size: 0.26rem;
-
                         img{
                             width: 0.26rem;
                             position: absolute;
                             left: 105%;
                             top:0.35rem ;
-                        }
-                        
+                        }                       
                     }
                     input {
                         background: transparent;
@@ -209,6 +207,7 @@ input::-webkit-input-placeholder {
                         text-align: center;
                         font-size: 0.26rem;
                         color: #dd4343;
+                        padding-left: 0.4rem;
                     }
                     &:nth-child(3) {
                         background: #DD4343;
@@ -333,7 +332,7 @@ input::-webkit-input-placeholder {
         }
         .copyright {
             height: 0.98rem;
-            width: 4.8rem;
+            width: 3.8rem;
             margin: 0.26rem auto 0;
         }
     }
@@ -425,7 +424,7 @@ $wordLen:0.2s;
 $wordStart:0.5s;
 $wordAdd:0.2s;
 $wordDelay:$wordStart+$wordAdd;
-@for $i from 1 through 6 {
+@for $i from 1 through 3{
     .actOnego .oneActWord#{$i} {
         animation: oneActWord $wordLen linear $wordStart+($wordAdd*$i)-$wordAdd forwards;
     }
@@ -450,7 +449,7 @@ $wordDelay:$wordStart+$wordAdd;
 }
 
 .actOnego .oneActLine {
-    animation: oneActLine 0.3s linear 2s forwards;
+    animation: oneActLine 0.3s linear 1.2s forwards;
 }
 
 @keyframes opLinear {
@@ -463,11 +462,11 @@ $wordDelay:$wordStart+$wordAdd;
 }
 
 .actOnego .oneActGua {
-    animation: opLinear 0.4s linear 2.3s forwards;
+    animation: opLinear 0.4s linear 0.4s forwards;
 }
 
 .actOnego .oneActGua2 {
-    animation: opLinear 0.4s linear 2.7s forwards;
+    animation: opLinear 0.4s linear 0.8s forwards;
 }
 
 //------------
@@ -594,7 +593,7 @@ $tagAdd:0.3s;
 }
 
 .actTwogo .twoActslogan {
-    animation: twoActslogan 1s linear 1.6s forwards;
+    animation: twoActslogan 1s linear 0.3s forwards;
 }
 
 .actFourgo .twoActslogan {
@@ -602,7 +601,7 @@ $tagAdd:0.3s;
 }
 
 .actTwogo .twoActdou {
-    animation: opLinear 0.2s linear 2.4s forwards;
+    animation: opLinear 0.2s linear 1.3s forwards;
 }
 
 .actFourgo .twoActdou {

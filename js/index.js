@@ -6,6 +6,9 @@ window.onload = function() {
 		if(sc.scrollTop() > $(".actTwo").offset().top - 300) {
 			$(".actTwo").addClass("actTwogo")
 		}
+		if(sc.scrollTop() > $(".actTwos").offset().top - 660) {
+			$(".actTwos").addClass("actTwogo")
+		}
 		if(sc.scrollTop() > $(".actThree").offset().top - 300) {
 			$(".actThree").addClass("actThreego")
 		}
